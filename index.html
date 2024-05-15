@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Request</title>
+    <Style>
+        .bigbox {
+            background-color: rgb(14, 233, 215);
+            width: 550px;
+            height: 650px;
+            padding: 30px;
+        }
+
+        .smallbox {
+            background-color: rgb(254, 254, 254);
+            margin-left: 45px;
+            margin-top: 25px;
+            margin-right: 45px;
+            margin-bottom: 25px;
+            border: 10px solid rgb(5, 249, 229);
+        }
+
+        .heading {
+            color: rgb(17, 95, 70);
+            text-align: center;
+        }
+
+        .main {
+            color: red;
+            padding-left: 05px;
+        }
+
+        .option {
+            color: rgb(70, 150, 226);
+        }
+    </Style>
+</head>
+
+<body>
+    <div class="bigbox">
+        <div class="smallbox">
+            <div class="heading">
+                <h1>Software Request</h1>
+            </div>
+            <form>
+                <div style="padding-left:15px ;">
+                    <label for="name">Name<span class="main">*</span> </label><br>
+                    <input type="text" name="" id="name" size="60%">
+                </div>
+                <div style="padding-left:15px ;padding-top: 10px;">
+                    <label for="EI">Employee ID<span class="main">*</span> </label><br>
+                    <input type="text" name="" id="EI" size="60%">
+                </div>
+                <div style="padding-left:15px ;padding-top: 10px;">
+                    <label for="Email">Email<span class="main">*</span> </label><br>
+                    <input type="text" name="" id="Email" size="60%">
+                </div>
+                <div style="padding-left:15px ;padding-top: 10px;">
+                    <label for="mob">Mobile No/Extn.No</label><br>
+                    <input type="text" name="" id="mob" size="60%">
+                </div>
+
+                <div style="padding-left:15px ;padding-top: 15px;">
+                    <b>Which Software do you require?</b><span class="main">*</span>
+                </div>
+                <div style="padding-left:15px ;padding-top: 10px;">
+                    <input type="checkbox" name="" id="">
+                    <span class="option">Software A</span>
+                </div>
+                <div style="padding-left:15px ;padding-top: 05px;">
+                    <input type="checkbox" name="" id="">
+                    <span class="option">Software B</span>
+                </div>
+                <div style="padding-left:15px ;padding-top: 05px;">
+                    <input type="checkbox" name="" id="">
+                    <span class="option">Software C</span>
+                </div>
+
+                <div style="padding-left:15px ;padding-top: 20px;">
+                    <b>How urgently do you need it</b><span class="main">*</span>
+                </div>
+                <div style="padding-left:15px ;padding-top: 10px;">
+                    <input type="radio" name="" id="">
+                    <span class="option">As soon as possible</span>
+                </div>
+                <div style="padding-left:15px ;padding-top: 05px;">
+                    <input type="radio" name="" id="">
+                    <span class="option">within 2 to 3 weeks</span>
+                </div>
+                <div style="padding-left:15px ;padding-top: 05px;">
+                    <input type="radio" name="" id="">
+                    <span class="option">I'm in no hurry</span>
+
+                    <div style="padding-top: 30px; padding-bottom: 30px; ">
+                        <input type="text" value="Request"
+                            style=" text-align: center; width: 400px; background: rgb(4, 79, 55); color: aliceblue;">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
